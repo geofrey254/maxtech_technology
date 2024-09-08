@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @layer base {
   :root {
@@ -63,7 +65,36 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+@keyframes navigation {
+  to {
+    transform: translateY(0px) rotate(0deg);
+    border-radius: 0px;
+    opacity: 100%;
+  }
+
+  from {
+    transform: translateY(1200px) rotate(90deg);
+    border-radius: 500px;
+    opacity: 100%;
+  }
+}
+
+.nav_anim {
+  animation: navigation 1.5s ease-in-out;
 }

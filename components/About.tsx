@@ -15,14 +15,14 @@ function About() {
               width={500}
               height={500}
               alt="arduino"
-              className="image1 mb-0 md:mb-96 border-[20px] border-white w-[18rem] md:w-[28rem] shadow-lg shadow-[#5E17EB] rounded-xl"
+              className="image1 mb-0 md:mb-96 border-[20px] border-white w-[18rem] md:w-[20rem] xl:w-[28rem] shadow-lg shadow-[#5E17EB] rounded-xl"
             />
             <Image
               src={Image_2}
               width={500}
               height={500}
               alt="pcb"
-              className="image2 ml-12 mt-24 md:ml-32 md:mt-32 border-[20px] border-white w-[18rem] md:w-[28rem] shadow-lg shadow-[#5E17EB] rounded-xl"
+              className="image2 ml-12 mt-24 md:ml-32 md:mt-32 border-[20px] border-white w-[18rem] md:w-[20rem] xl:w-[28rem] shadow-lg shadow-[#5E17EB] rounded-xl"
             />
           </div>
         </div>

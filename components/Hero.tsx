@@ -9,7 +9,7 @@ import { FaArrowRight } from "react-icons/fa";
 function Hero() {
   return (
     <section className="hero w-full mt-20 p-2">
-      <div className="container md:grid md:grid-cols-2 md:gap-20 items-center mt-4">
+      <div className="container md:grid md:grid-cols-2 md:gap-20 items-center mt-4 p-0 md:px-12 xl:p-0">
         <div className="left flex flex-col gap-6 mb-8 mt-8 md:mt-0 md:mb-0">
           <div className="flex gap-12 md:gap-48 font-bold text-[#ffffff] text-sm md:text-lg">
             <h4>.HARWARE.</h4>
@@ -28,7 +28,7 @@ function Hero() {
           </p>
           <Link
             href="#"
-            className="text-white bg-[#5E17EB] rounded-3xl p-4 items-center flex w-1/2 md:w-1/4 gap-4 font-bold"
+            className="text-white bg-[#5E17EB] rounded-3xl p-4 flex items-center justify-center w-1/2 md:w-1/3 xl:w-1/4 gap-4 font-bold "
           >
             About Us
             <FaArrowRight />

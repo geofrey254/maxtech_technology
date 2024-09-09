@@ -43,7 +43,7 @@ nav {
 }
 
 .hero {
-  background: url('/bg.jpg'), linear-gradient(to right, #120132, #160141, rgba(220, 220, 220, 0.075));
+  background: url('/bg.jpg'), linear-gradient(to right, #4B4453, #4B4453, rgba(220, 220, 220, 0.075));
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;

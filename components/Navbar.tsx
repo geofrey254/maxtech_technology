@@ -17,7 +17,7 @@ function Navbar() {
     setMenuOpen(!menuOpen);
   }
   return (
-    <nav className="fixed w-full h-20 bg-[#5E17EB]">
+    <nav className="fixed w-full h-20 bg-[#5E17EB] z-10">
       <div className="flex justify-between items-center h-full w-full px-4 md:px-20">
         <div className="left-nav">
           <Image src="/logo2.png" width={150} height={150} alt="Maxtech Logo" />

@@ -34,12 +34,13 @@ function About() {
             Our Commitment to Excellence
           </h2>
           <p className="text-left ">
-            At Maxtech Technology Solutions, we’re not just a technology
-            company—we’re your partner in innovation.From intelligent robotics
-            to state-of-the-art software, we specialize in transforming ideas
-            into real-world solutions. Our expertise spans across automation,
-            PCB design, and custom development for web and mobile applications,
-            ensuring you have the technological edge you need to thrive in today
+            At Maxtech Technology Solutions, we{"'"}re not just a technology
+            company—we{"'"}re your partner in innovation.From intelligent
+            robotics to state-of-the-art software, we specialize in transforming
+            ideas into real-world solutions. Our expertise spans across
+            automation, PCB design, and custom development for web and mobile
+            applications, ensuring you have the technological edge you need to
+            thrive in today
             {"'"}s fast-paced digital world.
           </p>
           <Link

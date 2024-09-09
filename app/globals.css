@@ -43,12 +43,12 @@ nav {
 }
 
 .hero {
-  background: url('/bg.jpg'), linear-gradient(to right, #4B4453, #4B4453, rgba(220, 220, 220, 0.075));
+  background: url('/bg.jpg'), linear-gradient(to right, #1c1a1e, #4B4453, rgba(220, 220, 220, 0.075));
   background-position: center;
   background-size: cover;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
-
+  background-attachment: fixed;
 }
 
 @media (max-width: 767.98px) {

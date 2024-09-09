@@ -26,7 +26,7 @@ function Services() {
           {SERVICES.map((service, id) => (
             <Card
               key={id}
-              className="border-0 rounded-3xl text-center shadow-md md:shadow-3xl shadow-[#4b4453]"
+              className="border-0 rounded-3xl text-center shadow-md md:shadow-3xl shadow-[#4b4453] "
             >
               <div className="flex justify-center items-center mt-4">
                 <Image

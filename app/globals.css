@@ -125,3 +125,21 @@ nav {
   animation: swapper 4s infinite ease-in-out;
   transition: ease-in-out;
 }
+
+@keyframes logo_anim {
+  0% {
+    transform: scale(100%) rotate(4deg);
+  }
+
+  50% {
+    transform: scale(110%) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(100%) rotate(4deg);
+  }
+}
+
+.logo_animate {
+  animation: logo_anim 4s infinite 1s ease-out;
+}

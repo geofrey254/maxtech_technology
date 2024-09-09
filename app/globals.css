@@ -78,3 +78,50 @@ nav {
 .logo_hero {
   animation: logo_animate 4s infinite ease-in-out;
 }
+
+.image_wrapper {
+  position: relative;
+}
+
+@keyframes swapper {
+  0% {
+    transform: rotate(-5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+
+}
+
+@keyframes swapper_2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(18deg);
+
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+
+}
+
+.image1 {
+  position: absolute;
+  animation: swapper_2 5s infinite 2s ease-out;
+  transition: ease-in-out;
+}
+
+.image2 {
+  position: absolute;
+  animation: swapper 4s infinite ease-in-out;
+  transition: ease-in-out;
+}

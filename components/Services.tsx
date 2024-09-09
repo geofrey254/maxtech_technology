@@ -14,8 +14,8 @@ import { motion, useScroll } from "framer-motion";
 
 function Services() {
   return (
-    <section className="services p-0 md:p-14">
-      <div className="container mt-24 md:mt-0">
+    <section className="services p-0 md:py-24">
+      <div className="container my-24 md:mt-0">
         <h4 className="text-center text-[#5E17EB] mb-1 md:mb-4 font-semibold">
           SERVICES
         </h4>

@@ -143,3 +143,22 @@ nav {
 .logo_animate {
   animation: logo_anim 4s infinite 1s ease-out;
 }
+
+.cta {
+  background: url('/bg2.jpg'), linear-gradient(to right, #1c1a1e, #4B4453, rgba(220, 220, 220, 0.075));
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 767.98px) {
+  .cta {
+    background: url('/bg2.jpg'), linear-gradient(to bottom, #1c1a1e, #180133e2, rgba(220, 220, 220, 0.075));
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+  }
+}

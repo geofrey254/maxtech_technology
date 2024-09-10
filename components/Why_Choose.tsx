@@ -30,7 +30,7 @@ function Why_Choose() {
             evolving digital landscape.
           </p>
         </div>
-        <div>
+        <div className="ml-0 md:ml-24">
           <Image
             src={Image_choose}
             width={500}

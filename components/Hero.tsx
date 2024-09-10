@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section className="hero w-full mt-20 p-2">
+    <section className="hero w-full mt-20 px-4 py-6 md:py-16 xl:py-44">
       <div className="container md:grid md:grid-cols-2 md:gap-20 items-center mt-4 p-0 md:px-12 xl:p-0">
         <div className="left flex flex-col gap-6 mb-8 mt-8 md:mt-0 md:mb-0">
           <div className="flex gap-12 md:gap-48 font-bold text-[#ffffff] text-sm md:text-lg">
@@ -34,13 +34,13 @@ function Hero() {
             <FaArrowRight />
           </Link>
         </div>
-        <div className="right">
+        <div className="right ml-28">
           <Image
             src={Logo}
             width={600}
             height={600}
             alt=""
-            className="w-[700px] hidden md:flex logo_hero"
+            className="w-[400px] hidden md:flex logo_hero"
           />
         </div>
       </div>

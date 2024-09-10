@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Contact() {
   return (
-    <section className="contact bg-[#e8def3] py-12 md:p-10 xl:p-20">
+    <section className="contact bg-[#e8def3] py-12 md:p-10 xl:p-20" id="cont">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
         <div className="left">
           <div className="mb-12 text-center md:text-left">

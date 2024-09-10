@@ -6,7 +6,10 @@ import Link from "next/link";
 
 function About() {
   return (
-    <section className="services pb-12 md:p-24 xl:p-72 bg-[#e8def3] flex flex-col justify-center items-center h-full md:h-[100vh] xl:h-[75vh]">
+    <section
+      className="services pb-12 md:p-24 xl:p-72 bg-[#e8def3] flex flex-col justify-center items-center h-full md:h-[100vh] xl:h-[75vh]"
+      id="about"
+    >
       <div className="container grid grid-cols-1 md:grid-cols-2 ">
         <div className="left_side mt-24 md:mt-0">
           <div className="image_wrapper">

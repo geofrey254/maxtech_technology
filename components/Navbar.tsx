@@ -24,11 +24,18 @@ function Navbar() {
         </div>
         <div className="middle-nav hidden md:flex">
           <ul className="flex gap-12 text-white font-medium">
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Solutions</li>
-            <li>Contact Us</li>
+            <li>
+              <Link href="#">Home</Link>
+            </li>
+            <li>
+              <Link href="#about">About Us</Link>
+            </li>
+            <li>
+              <Link href="#serv">Services</Link>
+            </li>
+            <li>
+              <Link href="#cont">Contact Us</Link>
+            </li>
           </ul>
         </div>
         <div className="right-nav">
@@ -58,11 +65,18 @@ function Navbar() {
         }
       >
         <ul className="flex flex-col gap-6 text-white font-medium mt-12 ml-12">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Solutions</li>
-          <li>Contact Us</li>
+          <li>
+            <Link href="#">Home</Link>
+          </li>
+          <li>
+            <Link href="#about">About Us</Link>
+          </li>
+          <li>
+            <Link href="#serv">Services</Link>
+          </li>
+          <li>
+            <Link href="#cont">Contact Us</Link>
+          </li>
         </ul>
         <div className="mt-12">
           <ul className="flex justify-around items-center text-4xl text-white">

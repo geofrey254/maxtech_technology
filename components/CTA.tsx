@@ -3,7 +3,10 @@ import Link from "next/link";
 
 function CTA() {
   return (
-    <section className="cta md:h-[40vh] py-12 md:p-10 xl:p-20 flex items-center">
+    <section
+      className="cta md:h-[40vh] py-12 md:p-10 xl:p-20 flex items-center"
+      id="cta"
+    >
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-0 items-center">
         <div className="grid gap-2 md:gap-6">
           <h2 className="text-white text-2xl md:text-4xl font-bold">

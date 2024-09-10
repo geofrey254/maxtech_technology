@@ -16,6 +16,10 @@ function Navbar() {
   function handleNav() {
     setMenuOpen(!menuOpen);
   }
+
+  function hideNav() {
+    setMenuOpen(!menuOpen);
+  }
   return (
     <nav className="fixed w-full h-20 bg-[#5E17EB] z-10 top-0">
       <div className="flex justify-between items-center h-full w-full px-4 md:px-20">
@@ -66,16 +70,24 @@ function Navbar() {
       >
         <ul className="flex flex-col gap-6 text-white font-medium mt-12 ml-12">
           <li>
-            <Link href="#">Home</Link>
+            <Link href="#" onClick={hideNav}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link href="#about">About Us</Link>
+            <Link href="#about" onClick={hideNav}>
+              About Us
+            </Link>
           </li>
           <li>
-            <Link href="#serv">Services</Link>
+            <Link href="#serv" onClick={hideNav}>
+              Services
+            </Link>
           </li>
           <li>
-            <Link href="#cont">Contact Us</Link>
+            <Link href="#cont" onClick={hideNav}>
+              Contact Us
+            </Link>
           </li>
         </ul>
         <div className="mt-12">

@@ -9,16 +9,8 @@ function Contact() {
     <section className="contact bg-[#e8def3] py-12 md:p-10 xl:p-20" id="cont">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
         <div className="left">
-          <div className="mb-12 text-center md:text-left">
+          <div className="mb-12 text-left md:text-left">
             <div className="flex gap-4 items-center">
-              <Image
-                src="/logo.png"
-                width={70}
-                height={70}
-                alt="Maxtech Logo"
-                className="logo_animate"
-              />
-
               <h4 className="text-[#5E17EB] mb-1 md:mb-1 font-semibold">
                 CONTACT US
               </h4>
@@ -66,7 +58,7 @@ function Contact() {
         </div>
         <div className="right">
           <h4 className="text-2xl md:text-3xl font-bold text-center mb-8">
-            Make An Appointment
+            Contact Us Now
           </h4>
           <form action="" className="text-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -126,23 +126,7 @@ nav {
   transition: ease-in-out;
 }
 
-@keyframes logo_anim {
-  0% {
-    transform: scale(100%) rotate(4deg);
-  }
 
-  50% {
-    transform: scale(110%) rotate(0deg);
-  }
-
-  100% {
-    transform: scale(100%) rotate(4deg);
-  }
-}
-
-.logo_animate {
-  animation: logo_anim 4s infinite 1s ease-out;
-}
 
 .cta {
   background: url('/bg2.jpg'), linear-gradient(to right, #1c1a1e, #4B4453, rgba(220, 220, 220, 0.075));

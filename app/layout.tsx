@@ -8,6 +8,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("http://localhost:3000/"),
+
   title:
     "MaxTech Technology Solutions | Robotics, Automation, Software Development, PCB Design & Fabrication in Nairobi, Kenya",
   description:
@@ -25,20 +27,20 @@ export const metadata: Metadata = {
     "PCB design services Kenya",
     "tech company Nairobi",
   ],
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "de-DE": "/de-DE",
+    },
+  },
   openGraph: {
     title:
       "MaxTech Technology Solutions | Robotics, Software Development & PCB Design in Nairobi",
     description:
       "MaxTech provides top-tier robotics, automation, software development, and PCB design & fabrication services for businesses in Nairobi and Kenya.",
     url: "https://www.maxtechsolutions.co.ke",
-    images: [
-      {
-        url: "/logo.png",
-        width: 800,
-        height: 600,
-        alt: "MaxTech Technology Solutions",
-      },
-    ],
+    images: "/logo.png",
     type: "website",
   },
   twitter: {
@@ -47,18 +49,14 @@ export const metadata: Metadata = {
       "MaxTech Technology Solutions | Robotics, Software Development, PCB Fabrication",
     description:
       "Providing innovative tech solutions in robotics & automation, software development, and PCB design & fabrication for companies in Nairobi and Kenya.",
-    images: [
-      {
-        url: "/logo.png",
-        alt: "MaxTech Technology Solutions",
-      },
-    ],
+    images: "/logo.png",
   },
-  viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: "/favicon.ico",
   },
 };
+
+export const viewport = { width: 1, initialScale: 1 };
 
 export default function RootLayout({
   children,

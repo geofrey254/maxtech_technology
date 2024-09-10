@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Contact() {
   return (
-    <section className="contact bg-[#e8def3] py-12 md:p-20 xl:p-20">
+    <section className="contact bg-[#e8def3] py-12 md:p-10 xl:p-20">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
         <div className="left">
           <div className="mb-12 text-center md:text-left">
@@ -36,28 +36,28 @@ function Contact() {
           </div>
           <hr className="border-[#5E17EB]" />
           <div className="grid gap-6 md:flex md:gap-12 items-center mt-12">
-            <div className="link_1 flex items-center gap-6 bg-white p-8 rounded-xl">
+            <div className="link_1 flex items-center gap-6 bg-white p-4 md:p-4 xl:p-8 rounded-xl">
               <FaPhoneAlt
                 size={50}
                 className="bg-[#5E17EB] text-white p-2 rounded-xl shadow-2xl shadow-[#5E17EB]"
               />
               <div className="">
                 {" "}
-                <h6>Call Us On:</h6>
-                <Link href="#" className="font-bold text-nowrap">
+                <h6 className="md:text-sm">Call Us On:</h6>
+                <Link href="#" className="font-bold text-nowrap text-md">
                   +254742 954513
                 </Link>
               </div>
             </div>
-            <div className="link_2 flex items-center gap-6 bg-white p-8 rounded-xl">
+            <div className="link_2 flex items-center gap-6 bg-white p-4 md:p-4 xl:p-8 rounded-xl">
               <IoIosMailUnread
                 size={50}
                 className="bg-[#5E17EB] text-white p-2 rounded-xl shadow-2xl shadow-[#5E17EB]"
               />
               <div className="">
                 {" "}
-                <h6>Quick Mail Us:</h6>
-                <Link href="#" className="font-bold text-lg">
+                <h6 className="md:text-sm">Quick Mail Us:</h6>
+                <Link href="#" className="font-bold text-md">
                   info@maxtech.co.ke
                 </Link>
               </div>

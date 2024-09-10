@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000/"),
+  metadataBase: new URL("https://maxtechtechnologysolutions.vercel.app/"),
 
   title:
     "MaxTech Technology Solutions | Robotics, Automation, Software Development, PCB Design & Fabrication in Nairobi, Kenya",
